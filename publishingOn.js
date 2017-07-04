@@ -15,7 +15,7 @@ $.fn.publishingB = function(options) {
             $("#" + id).append(html);
         }
         else if (settings.type == "rich") {
-            var html = '<div class="swiper-container" style="background-color:' + data.background + '; text-align: ' + data.align + '; font-family: arial; padding: ' + data.padding + '; max-width: ' + data.width + '; max-height: ' + data.height + '; color: ' + data.color + ';">'
+            var html = '<div class="swiper-container" style="background-color:' + data.background + '; text-align: ' + data.align + '; font-family: arial; padding: ' + data.padding + '; width: ' + data.width + '; height: ' + data.height + '; color: ' + data.color + ';">'
                 + '<div class="swiper-wrapper">'
                 + '<div class="swiper-slide">Real time ads</div>'
                 + '<div class="swiper-slide">Publishing On</div>'
